@@ -1,0 +1,34 @@
+
+$whiteColor: #FFF;
+$blackColor:#000;
+$blackGrey:#3a3a3a;
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: $blackGrey;
+    align-items: center;
+    .title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px 0 10px 20px;
+      h1{
+        color: $whiteColor;
+      }
+      h2{
+        color: $whiteColor;
+      }
+    }
+    .navigation {
+    width: 50%;
+    nav{
+      display: flex;
+      justify-content: space-around;
+      color: $whiteColor;
+      li{
+        list-style-type: none;
+      }
+    }
+  }
+}
