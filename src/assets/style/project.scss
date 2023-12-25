@@ -1,0 +1,35 @@
+.page-project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    h1{
+        font-size: 2rem ;
+    }
+    label{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    select{
+        margin-bottom: 10px;
+        padding: 10px 40px;
+        background-color: antiquewhite;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        width: 800px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        img{
+            object-fit: cover;
+            border-radius: 10px;
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+        }
+    }
+    
+        
+}

@@ -1,10 +1,9 @@
 import { BrowserRouter } from 'react-router-dom';
-import { Routes,Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Project from "./pages/Project";
 import Techno from "./pages/Techno";
 import Contact from "./pages/Contact";
-
 import "./assets/style/App.scss"
 
 function App() {
