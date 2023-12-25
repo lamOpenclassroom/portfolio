@@ -1,7 +1,7 @@
 import imagePc from '../assets/image/hero.png'
 import "../assets/style/propos.scss"
 
-function Propos() {
+function About() {
     return (
         <main id="main-page">
             <section className='propos'>
@@ -22,4 +22,4 @@ function Propos() {
         </main>
     )
 }
-export default Propos
+export default About
