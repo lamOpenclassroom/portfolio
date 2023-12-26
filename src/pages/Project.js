@@ -1,9 +1,9 @@
 import "../assets/style/project.scss";
-import immo from "../assets/image/kasa.png";
-import photograph from "../assets/image/Site photographe.jpg";
-import resto1 from "../assets/image/Site Restaurant.jpg";
-import resto from "../assets/image/site-restaurant-1.jpg"; 
-import voyage from "../assets/image/site-voyagejpg.jpg";
+import immo from "../assets/image/project/kasa.png";
+import photograph from "../assets/image/project/Site photographe.jpg";
+import resto1 from "../assets/image/project/Site Restaurant.jpg";
+import resto from "../assets/image/project/site-restaurant-1.jpg"; 
+import voyage from "../assets/image/project/site-voyagejpg.jpg";
 
 function Project() {
     return (

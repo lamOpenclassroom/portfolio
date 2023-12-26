@@ -1,4 +1,6 @@
-import "../assets/style/header.scss"
+
+import { Link } from "react-router-dom";
+import "../assets/style/header.scss";
 
 function Header() {
     return (
@@ -10,10 +12,10 @@ function Header() {
             
             <div className="navigation">
                 <nav>
-                    <li>Acceuil</li>
-                    <li>Mes projets</li>
-                    <li>Les technologies</li>
-                    <li>Contact</li>
+                    <Link className="link" to="/">Acceuil</Link>
+                    <Link className="link" to="/project">Mes projets</Link>
+                    <Link className="link" to="/techno">Les technologies</Link>
+                    <Link className="link" to="/contact">Contact</Link>
                 </nav>
             </div>
         </header>

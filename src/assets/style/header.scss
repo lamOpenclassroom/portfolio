@@ -24,10 +24,10 @@ header{
     width: 50%;
     nav{
       display: flex;
-      justify-content: space-around;
-      color: $whiteColor;
-      li{
-        list-style-type: none;
+      justify-content: space-around;    
+      .link{
+        text-decoration:none;
+        color: $whiteColor;
       }
     }
   }
