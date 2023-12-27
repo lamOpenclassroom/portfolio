@@ -5,8 +5,8 @@ function Footer() {
         <footer className="footer">
             <nav>
                 <li>© Mohamed Lamtaoui</li>
-                <li><i class="fa-brands fa-linkedin"></i></li>
-                <li><i class="fa-solid fa-at"></i> lamtaoui@hotmail.fr</li>
+                <li><i className="fa-brands fa-linkedin"></i></li>
+                <li><i className="fa-solid fa-at"></i> lamtaoui@hotmail.fr</li>
             </nav>
         </footer>
     )
