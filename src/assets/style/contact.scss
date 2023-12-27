@@ -1,0 +1,42 @@
+$gradientColor: rgb(170, 203, 221);
+
+#block-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    #block-form{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        font-size: 1.5rem;
+        width: 600px;
+        label,input{
+            margin: 5px;
+        }
+        input,textarea{
+            width: 100%;
+            border: 2px rgb(132, 132, 188) solid
+        }
+        .effet:hover{
+            background-color: $gradientColor;
+            cursor: pointer;
+            transition: 1500ms;
+        }
+        textarea{
+            height: 100px;
+        }
+    }
+    button{
+        margin: 10px;
+        padding: 5px 30px;
+        font-size: 1.5rem;        
+    }
+    button:hover{
+        cursor: pointer;
+        font-weight: bolder;
+        color: #fff;
+        background-color:$gradientColor;
+        transition: 1000ms;
+    }
+}

@@ -12,13 +12,15 @@ function App() {
   return (
     <div className="my-app">
       <BrowserRouter>
-        <Header/>
+        <Header />
+        <div className='my-app-change'>
           <Routes>
             <Route path="/" element={<About />}/>
             <Route path="/project" element={<Project />}/>
             <Route path="/techno" element={<Techno />} />
             <Route path="/contact" element={<Contact/>}/>
-          </Routes>
+        </Routes>
+        </div>
         <Footer />
       </BrowserRouter>
     </div>
