@@ -9,7 +9,13 @@ import MANGODB from "./assets/image/logo-techno/Mango DB.png";
 import GITHUB from "./assets/image/logo-techno/GITHUB.png";
 import WAKELET from "./assets/image/logo-techno/WAKELET.png";
 import TRELLO from "./assets/image/logo-techno/trello-logo-1.2.jpg";
+import FIGMA from "./assets/image/logo-techno/FIGMA.png"
 
+import immo from "./assets/image/project/kasa.png";
+import photograph from "./assets/image/project/Site photographe.jpg";
+import resto1 from "./assets/image/project/Site Restaurant.jpg";
+import resto from "./assets/image/project/site-restaurant-1.jpg"; 
+import voyage from "./assets/image/project/site-voyagejpg.jpg";
 
 const frontend = [
     {
@@ -73,9 +79,65 @@ const autre = [
         id: 11,
         name: "TRELLO",
         image: TRELLO,
+    },
+    {
+        id: 12,
+        name: "FIGMA",
+        image: FIGMA,
     }
 ]
 
-export {frontend, backend, autre};
+const project = [
+    {
+        id: 13,
+        techno : "REACT",
+        name:"Site location immobilière",
+        image: immo,
+    },
+    {
+        id: 14,
+        techno: "HTML/CSS",
+        name: "site de photographe",
+        image: photograph,
+    },
+    {
+        id: 15,
+        techno: "REACT/REDUX",
+        name: "site de restaurant asiatique",
+        image: resto1,
+    },
+    {
+        id: 16,
+        techno: "REACT",
+        name: "site de restaurant marocain",
+        image: resto,
+    },
+    {
+        id: 17,
+        techno: "SASS",
+        name: "site de restaurant espagnol",
+        image: resto,
+    },
+    {
+        id: 18,
+        techno: "REACT",
+        name: "site de voyage",
+        image: voyage,
+    },
+    {
+        id: 19,
+        techno: "REACT",
+        name: "site de voyage",
+        image: voyage,
+    },
+    {
+        id: 20,
+        techno: "SWAGGER",
+        name: "Site location immobilière",
+        image: immo,
+    },
+]
+
+export {frontend, backend, autre, project};
 
 //tenter de mettre toutes les images dans un objet
