@@ -3,20 +3,13 @@ import "../assets/style/project.scss";
 import { project } from '../Data'
 
 function Project() {
-    //const images = document.getElementsByTagName("img");
     const [valueSelect, setisValueSelect] = useState("Tous")
 
     function selectOption(e) {
-       
-        
         setisValueSelect(e.target.value)
         console.log(`"la valeur du state est :"${valueSelect}`)
     }
-        
-    
 
-    
-    
     return (
         <div className="page-project">
             <h1>Mes Projets</h1>
@@ -33,7 +26,19 @@ function Project() {
             </select>
 
             <section>
-                {project.map((items) => (<img className={items.techno === valueSelect || valueSelect === "Tous" ? "visible" : "hidden"} alt={items.name} src={items.image}></img>))}
+                {project.map((items) =>
+                (items.techno === valueSelect || valueSelect === "Tous" ?
+                    <div id='flexImage-title'>
+                        <img  alt={items.name} src={items.image}/>
+                        <p>{items.name}</p>
+                        <p className="modal">Description : il s'agit d'un projet que je devais réaliser
+                        dans le cadre de ma formation .....</p>
+                    </div>:null))
+                }
+            
+                    
+                   
+                
             </section>
         </div>
     )
