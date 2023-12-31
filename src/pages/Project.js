@@ -31,8 +31,9 @@ function Project() {
                     <div id='flexImage-title'>
                         <img  alt={items.name} src={items.image}/>
                         <p>{items.name}</p>
-                        <p className="modal">Description : il s'agit d'un projet que je devais réaliser
-                        dans le cadre de ma formation .....</p>
+                        
+                        <p className="modal">{items.resume}</p>
+                        
                     </div>:null))
                 }
             
