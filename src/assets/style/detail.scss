@@ -1,0 +1,28 @@
+.detail{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    .picture-size{
+        width: 600px;
+        height: 400px;
+        img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    
+    section{
+        
+        list-style-type: none;
+        color: #000;
+        text-decoration: none;
+        h1{
+            font-size: 1.7rem;   
+        }
+        p{
+            font-size: 1.3rem;
+        }
+    }
+    
+}

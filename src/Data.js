@@ -17,7 +17,7 @@ import resto1 from "./assets/image/project/Site Restaurant.jpg";
 import resto from "./assets/image/project/site-restaurant-1.jpg"; 
 import voyage from "./assets/image/project/site-voyagejpg.jpg";
 
-const frontend = [
+export const frontend = [
     {
         id: 1,
         name: "HTML",
@@ -51,7 +51,7 @@ const frontend = [
     
 ];
 
-const backend = [
+export const backend = [
     {
         id: 7,
         name: "SWAGGER",
@@ -64,7 +64,7 @@ const backend = [
     }
 ]
 
-const autre = [
+export const autre = [
     {
         id: 9,
         name: "GITHUB",
@@ -87,65 +87,78 @@ const autre = [
     }
 ]
 
-const project = [
+export const project = [
     {
-        id: 13,
+        id: "13",
         techno : "REACT",
         name:"Site location immobilière",
         image: immo,
         resume: "il s'agit d'un site de loc à réaliser dans le cadre de la formation",
+        lienSite: "www.google.fr",
+        lienGit: "github.fr",
     },
     {
-        id: 14,
+        id: "14",
         techno: "HTML/CSS",
         name: "site de photographe",
         image: photograph,
         resume: "il s'agit d'un site pour photographe à réaliser dans le cadre de la formation",
+        lienSite: "www.google.fr",
+        lienGit: "github.fr",
     },
     {
-        id: 15,
+        id: "15",
         techno: "REACT/REDUX",
         name: "site de restaurant asiatique",
         image: resto1,
-        resume:"il s'agit d'un site pour commander asiatique à réaliser dans le cadre de la formation",
+        resume: "il s'agit d'un site pour commander asiatique à réaliser dans le cadre de la formation",
+        lienSite: "www.google.fr",
+        lienGit: "github.fr",
     },
     {
-        id: 16,
+        id: "16",
         techno: "REACT",
         name: "site de recette marocaine",
         image: resto,
         resume: "il s'agit d'un site pour apprendre la gastronomie marocaine à réaliser dans le cadre de la formation",
+        lienSite: "www.google.fr",
+        lienGit: "github.fr",
     },
     {
-        id: 17,
+        id: "17",
         techno: "SASS",
         name: "site de restaurant espagnol",
         image: resto,
         resume:"il s'agit d'un site pour commander espagnol à réaliser dans le cadre de la formation",
+        lienSite: "www.google.fr",
+        lienGit: "github.fr",
     },
     {
-        id: 18,
+        id: "18",
         techno: "REACT",
         name: "site de voyage",
         image: voyage,
         resume:"il s'agit d'un site pour réserver un hôtel à réaliser dans le cadre de la formation",
+        lienSite: "www.google.fr",
+        lienGit: "github.fr",
     },
     {
-        id: 19,
+        id: "19",
         techno: "REACT",
         name: "site de voyage",
         image: voyage,
         resume: "il s'agit d'un site pour réserver un gîte à réaliser dans le cadre de la formation",
+        lienSite: "www.google.fr",
+        lienGit: "github.fr",
     },
     {
-        id: 20,
+        id: "20",
         techno: "SWAGGER",
         name: "Site Salle des fêtes",
         image: immo,
         resume: "il s'agit d'un site pour réserver une salle pour permettre au visiteur client d'organiser des événements, réaliser dans le cadre de la formation",
+        lienSite: "www.google.fr",
+        lienGit: "github.fr",
     },
 ]
 
-export {frontend, backend, autre, project};
-
-//tenter de mettre toutes les images dans un objet

@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import "../assets/style/project.scss";
-import { project } from '../Data'
+import { project } from '../Data';
 
 function Project() {
-    const [valueSelect, setisValueSelect] = useState("Tous")
+    const [valueSelect, setisValueSelect] = useState("Tous");
 
     function selectOption(e) {
         setisValueSelect(e.target.value)
@@ -28,18 +29,15 @@ function Project() {
             <section>
                 {project.map((items) =>
                 (items.techno === valueSelect || valueSelect === "Tous" ?
-                    <div id='flexImage-title'>
-                        <img  alt={items.name} src={items.image}/>
-                        <p>{items.name}</p>
-                        
-                        <p className="modal">{items.resume}</p>
-                        
-                    </div>:null))
-                }
-            
-                    
-                   
-                
+                    <Link to={`/detail/` + items.id}>
+                        <div id='flexImage-title' >
+                            <img  alt={items.name} src={items.image}/>
+                            <p className="title-picture">{items.name}</p> 
+                            <p className="modal">{items.resume}</p>  
+                        </div>
+                    </Link>
+                : null))
+                }  
             </section>
         </div>
     )

@@ -1,0 +1,58 @@
+[
+    {
+        "id": 13,
+        
+        "name":"Site location immobilière",
+    
+        "resume": "il s'agit d'un site de loc à réaliser dans le cadre de la formation"
+    },
+    {
+        "id": 14,
+        
+        "name": "site de photographe",
+        
+        "resume": "il s'agit d'un site pour photographe à réaliser dans le cadre de la formation"
+    },
+    {
+        "id": 15,
+        
+        "name": "site de restaurant asiatique",
+        
+        "resume":"il s'agit d'un site pour commander asiatique à réaliser dans le cadre de la formation"
+    },
+    {
+        "id": 16,
+
+        "name": "site de recette marocaine",
+    
+        "resume": "il s'agit d'un site pour apprendre la gastronomie marocaine à réaliser dans le cadre de la formation"
+    },
+    {
+        "id": 17,
+        
+        "name": "site de restaurant espagnol",
+        
+        "resume":"il s'agit d'un site pour commander espagnol à réaliser dans le cadre de la formation"
+    },
+    {
+        "id": 18,
+        
+        "name": "site de voyage",
+        
+        "resume":"il s'agit d'un site pour réserver un hôtel à réaliser dans le cadre de la formation"
+    },
+    {
+        "id": 19,
+    
+        "name": "site de voyage",
+    
+        "resume": "il s'agit d'un site pour réserver un gîte à réaliser dans le cadre de la formation"
+    },
+    {
+        "id": 20,
+    
+        "name": "Site Salle des fêtes",
+    
+        "resume": "il s'agit d'un site pour réserver une salle pour permettre au visiteur client d'organiser des événements, réaliser dans le cadre de la formation"
+    }
+]
