@@ -30,10 +30,10 @@ function Project() {
                 {project.map((items) =>
                 (items.techno === valueSelect || valueSelect === "Tous" ?
                     <Link to={`/detail/` + items.id}>
-                        <div id='flexImage-title' >
+                        <div id='flexImage-title' >     
                             <img  alt={items.name} src={items.image}/>
                             <p className="title-picture">{items.name}</p> 
-                            <p className="modal">{items.resume}</p>  
+                            <p className="modal">{items.resume}</p>      
                         </div>
                     </Link>
                 : null))
