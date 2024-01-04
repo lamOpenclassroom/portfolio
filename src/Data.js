@@ -9,13 +9,19 @@ import MANGODB from "./assets/image/logo-techno/Mango DB.png";
 import GITHUB from "./assets/image/logo-techno/GITHUB.png";
 import WAKELET from "./assets/image/logo-techno/WAKELET.png";
 import TRELLO from "./assets/image/logo-techno/trello-logo-1.2.jpg";
-import FIGMA from "./assets/image/logo-techno/FIGMA.png"
+import FIGMA from "./assets/image/logo-techno/FIGMA.png";
 
-import immo from "./assets/image/project/kasa.png";
+import immo from "./assets/image/project/siteKasa/kasa-1.PNG";
 import photograph from "./assets/image/project/Site photographe.jpg";
 import resto1 from "./assets/image/project/Site Restaurant.jpg";
 import resto from "./assets/image/project/site-restaurant-1.jpg"; 
 import voyage from "./assets/image/project/site-voyagejpg.jpg";
+
+import kasa1 from "./assets/image/project/siteKasa/kasa-1.PNG";
+import kasa2 from "./assets/image/project/siteKasa/kasa-2.PNG";
+import kasa3 from "./assets/image/project/siteKasa/kasa-3.PNG";
+import kasa4 from "./assets/image/project/siteKasa/kasa-4.PNG";
+import kasa5 from "./assets/image/project/siteKasa/kasa-5.PNG";
 
 export const frontend = [
     {
@@ -93,9 +99,17 @@ export const project = [
         techno : "REACT",
         name:"Site location immobilière",
         image: immo,
+        slider : 
+        [
+            kasa1,
+            kasa2,
+            kasa3,
+            kasa4,
+            kasa5,
+        ],
         resume: "il s'agit d'un site de loc à réaliser dans le cadre de la formation",
-        lienSite: "www.google.fr",
-        lienGit: "github.fr",
+        lienSite: "https://lam-project-kasa.netlify.app/",
+        lienGit: "https://github.com/lamOpenclassroom/kasa",
     },
     {
         id: "14",
