@@ -12,8 +12,8 @@ import TRELLO from "./assets/image/logo-techno/trello-logo-1.2.jpg";
 import FIGMA from "./assets/image/logo-techno/FIGMA.png";
 
 import immo from "./assets/image/project/siteKasa/kasa-1.PNG";
-import photograph from "./assets/image/project/Site photographe.jpg";
-import resto1 from "./assets/image/project/Site Restaurant.jpg";
+// import photograph from "./assets/image/project/Site photographe.jpg";
+// import resto1 from "./assets/image/project/Site Restaurant.jpg";
 import resto from "./assets/image/project/site-restaurant-1.jpg"; 
 import voyage from "./assets/image/project/site-voyagejpg.jpg";
 
@@ -22,6 +22,17 @@ import kasa2 from "./assets/image/project/siteKasa/kasa-2.PNG";
 import kasa3 from "./assets/image/project/siteKasa/kasa-3.PNG";
 import kasa4 from "./assets/image/project/siteKasa/kasa-4.PNG";
 import kasa5 from "./assets/image/project/siteKasa/kasa-5.PNG";
+
+import resto1 from "./assets/image/project/siteResto/resto-1.PNG";
+import resto2 from "./assets/image/project/siteResto/resto-2.PNG";
+import resto3 from "./assets/image/project/siteResto/resto-3.PNG";
+import resto4 from "./assets/image/project/siteResto/resto-4.PNG";
+import resto5 from "./assets/image/project/siteResto/resto-5.PNG";
+
+import booki1 from "./assets/image/project/siteBooki/booki-1.PNG";
+import booki2 from "./assets/image/project/siteBooki/booki-2.PNG";
+import booki3 from "./assets/image/project/siteBooki/booki-3.PNG";
+import booki4 from "./assets/image/project/siteBooki/booki-4.PNG";
 
 export const frontend = [
     {
@@ -98,7 +109,7 @@ export const project = [
         id: "13",
         techno : "REACT",
         name:"Site location immobilière",
-        image: immo,
+        image: kasa1,
         slider : 
         [
             kasa1,
@@ -114,20 +125,35 @@ export const project = [
     {
         id: "14",
         techno: "HTML/CSS",
-        name: "site de photographe",
-        image: photograph,
+        name: "site de restaurant",
+        image: resto1,
+        slider : 
+        [
+            resto1,
+            resto2,
+            resto3,
+            resto4,
+            resto5,
+        ],
         resume: "il s'agit d'un site pour photographe à réaliser dans le cadre de la formation",
-        lienSite: "www.google.fr",
-        lienGit: "github.fr",
+        lienSite: "https://lamopenclassroom.github.io/Ohmyfood/",
+        lienGit: "https://github.com/lamOpenclassroom/Ohmyfood",
     },
     {
         id: "15",
         techno: "REACT/REDUX",
-        name: "site de restaurant asiatique",
-        image: resto1,
+        name: "site d'agence de location'",
+        image: booki1,
+        slider: 
+            [
+                booki1,
+                booki2,
+                booki3,
+                booki4, 
+            ],
         resume: "il s'agit d'un site pour commander asiatique à réaliser dans le cadre de la formation",
-        lienSite: "www.google.fr",
-        lienGit: "github.fr",
+        lienSite: "a mettre sur github",
+        lienGit: "a mettre sur github",
     },
     {
         id: "16",
