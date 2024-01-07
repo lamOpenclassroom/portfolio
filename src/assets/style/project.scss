@@ -32,7 +32,7 @@
             transition: transform 2s ease;
             
             img{
-                object-fit:cover;
+                object-fit:contain;
                 border-radius: 10px;
                 width: 200px;
                 height: 200px;

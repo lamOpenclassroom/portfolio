@@ -20,13 +20,8 @@ function Detail() {
     let description = dataUrl.resume
     let linkSite = dataUrl.lienSite
     let linkGit = dataUrl.lienGit
-
     let myslider = dataUrl.slider
-    
-    
-    
-    
-    
+
     let account = 0;
         
     function right() {
@@ -67,9 +62,7 @@ function Detail() {
             
             <section className="section-info">
                 <h1>Nom du projet : {name}</h1>
-                <a href={linkSite} target="blank">Lien vers le site</a> 
-                <br />
-                <br/>
+                <p>Lien du site : <a href={linkSite} target="blank"> {linkSite} </a> </p>
                 <a href={linkGit} target="blank">Lien vers github</a> 
                 <p>description : {description} </p>
             </section> 

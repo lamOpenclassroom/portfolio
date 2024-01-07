@@ -11,12 +11,6 @@ import WAKELET from "./assets/image/logo-techno/WAKELET.png";
 import TRELLO from "./assets/image/logo-techno/trello-logo-1.2.jpg";
 import FIGMA from "./assets/image/logo-techno/FIGMA.png";
 
-import immo from "./assets/image/project/siteKasa/kasa-1.PNG";
-// import photograph from "./assets/image/project/Site photographe.jpg";
-// import resto1 from "./assets/image/project/Site Restaurant.jpg";
-import resto from "./assets/image/project/site-restaurant-1.jpg"; 
-import voyage from "./assets/image/project/site-voyagejpg.jpg";
-
 import kasa1 from "./assets/image/project/siteKasa/kasa-1.PNG";
 import kasa2 from "./assets/image/project/siteKasa/kasa-2.PNG";
 import kasa3 from "./assets/image/project/siteKasa/kasa-3.PNG";
@@ -33,6 +27,29 @@ import booki1 from "./assets/image/project/siteBooki/booki-1.PNG";
 import booki2 from "./assets/image/project/siteBooki/booki-2.PNG";
 import booki3 from "./assets/image/project/siteBooki/booki-3.PNG";
 import booki4 from "./assets/image/project/siteBooki/booki-4.PNG";
+
+import archi1 from "./assets/image/project/architecte/archi-1.PNG";
+import archi2 from "./assets/image/project/architecte/archi-2.PNG";
+import archi3 from "./assets/image/project/architecte/archi-3.PNG";
+import archi4 from "./assets/image/project/architecte/archi-4.PNG";
+import archi5 from "./assets/image/project/architecte/archi-5.PNG";
+
+import photo1 from "./assets/image/project/sitePhoto/photo-1.PNG";
+import photo2 from "./assets/image/project/sitePhoto/photo-2.PNG";
+import photo3 from "./assets/image/project/sitePhoto/photo-3.PNG";
+import photo4 from "./assets/image/project/sitePhoto/photo-4.PNG";
+import photo5 from "./assets/image/project/sitePhoto/photo-5.PNG";
+
+import bank1 from "./assets/image/project/siteBank/bank-1.PNG";
+import bank2 from "./assets/image/project/siteBank/bank-2.PNG";
+import bank3 from "./assets/image/project/siteBank/bank-3.PNG";
+import bank4 from "./assets/image/project/siteBank/bank-4.PNG";
+
+import event1 from "./assets/image/project/siteEvents/event-1.PNG";
+import event2 from "./assets/image/project/siteEvents/event-2.PNG";
+import event3 from "./assets/image/project/siteEvents/event-3.PNG";
+import event4 from "./assets/image/project/siteEvents/event-4.PNG";
+import event5 from "./assets/image/project/siteEvents/event-5.PNG";
 
 export const frontend = [
     {
@@ -151,54 +168,76 @@ export const project = [
                 booki3,
                 booki4, 
             ],
-        resume: "il s'agit d'un site pour commander asiatique à réaliser dans le cadre de la formation",
-        lienSite: "a mettre sur github",
-        lienGit: "a mettre sur github",
+        resume: "il s'agit d'un site d'agence de location à réaliser dans le cadre de ma formation",
+        lienSite: "https://booki-site-ml.netlify.app/",
+        lienGit: "https://github.com/lamOpenclassroom/booki",
     },
     {
         id: "16",
         techno: "REACT",
-        name: "site de recette marocaine",
-        image: resto,
-        resume: "il s'agit d'un site pour apprendre la gastronomie marocaine à réaliser dans le cadre de la formation",
-        lienSite: "www.google.fr",
-        lienGit: "github.fr",
+        name: "Portfolio d'un architecte",
+        image: archi1,
+        slider : 
+        [
+            archi1,
+            archi2,
+            archi3,
+            archi4,
+            archi5,
+        ],
+        resume: "il s'agit d'un site repésentant le portfolio d'un architecte d'intérieur",
+        lienSite: "Néant",
+        lienGit: "https://github.com/lamOpenclassroom/Portfolio-P6",
     },
     {
         id: "17",
-        techno: "SASS",
-        name: "site de restaurant espagnol",
-        image: resto,
-        resume:"il s'agit d'un site pour commander espagnol à réaliser dans le cadre de la formation",
-        lienSite: "www.google.fr",
-        lienGit: "github.fr",
+        techno: "HTML/CSS",
+        name: "site de photographe professionnel",
+        image: photo1,
+        slider : 
+        [
+            photo1,
+            photo2,
+            photo3,
+            photo4,
+            photo5,
+        ],
+        resume:"il s'agit d'un site de photographe professionnel dans le cadre de ma formation",
+        lienSite: "https://lamopenclassroom.github.io/Optimisation-referencement/",
+        lienGit: "https://github.com/lamOpenclassroom/Optimisation-referencement",
     },
     {
         id: "18",
         techno: "REACT",
         name: "site de voyage",
-        image: voyage,
-        resume:"il s'agit d'un site pour réserver un hôtel à réaliser dans le cadre de la formation",
-        lienSite: "www.google.fr",
-        lienGit: "github.fr",
+        image: bank1,
+        slider : 
+        [
+            bank1,
+            bank2,
+            bank3,
+            bank4,
+        ],
+        resume:"il s'agit d'un site de banque à réaliser dans le cadre de la formation",
+        lienSite: "Neant",
+        lienGit: "https://github.com/lamOpenclassroom/ArgentBank-website",
     },
     {
         id: "19",
         techno: "REACT",
-        name: "site de voyage",
-        image: voyage,
-        resume: "il s'agit d'un site pour réserver un gîte à réaliser dans le cadre de la formation",
-        lienSite: "www.google.fr",
-        lienGit: "github.fr",
-    },
-    {
-        id: "20",
-        techno: "SWAGGER",
-        name: "Site Salle des fêtes",
-        image: immo,
-        resume: "il s'agit d'un site pour réserver une salle pour permettre au visiteur client d'organiser des événements, réaliser dans le cadre de la formation",
-        lienSite: "www.google.fr",
-        lienGit: "github.fr",
+        name: "site d'évenementiel",
+        image: event1,
+        slider: 
+        [
+            event1,
+            event2,
+            event3,
+            event4,
+            event5,
+        ],
+        resume: "il s'agit d'un site d'évenementiel dans le cadre de la formation",
+        lienSite: "https://77events-debugging.netlify.app/",
+        lienGit: "https://github.com/lamOpenclassroom/Debugge-site",
     },
 ]
 
