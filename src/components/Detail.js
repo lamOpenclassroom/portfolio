@@ -17,7 +17,7 @@ function Detail() {
     if (!dataUrl) { return <Error /> }
     
     let name = dataUrl.name
-    let description = dataUrl.resume
+    let description = dataUrl.descript
     let linkSite = dataUrl.lienSite
     let linkGit = dataUrl.lienGit
     let myslider = dataUrl.slider
@@ -61,10 +61,10 @@ function Detail() {
             </div>
             
             <section className="section-info">
-                <h1>Nom du projet : {name}</h1>
+                <h1>Projet : {name}</h1>
                 <p>Lien du site : <a href={linkSite} target="blank"> {linkSite} </a> </p>
                 <a href={linkGit} target="blank">Lien vers github</a> 
-                <p>description : {description} </p>
+                <p>Description : {description} </p>
             </section> 
 
        </div> 

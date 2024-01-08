@@ -138,6 +138,7 @@ export const project = [
         resume: "il s'agit d'un site de loc à réaliser dans le cadre de la formation",
         lienSite: "https://lam-project-kasa.netlify.app/",
         lienGit: "https://github.com/lamOpenclassroom/kasa",
+        descript : "L'objectif étant de refaire un site de location d'appartement pour particulier en utilisant du javascript et React. Ce projet m'a permis de découvrir ce framework",
     },
     {
         id: "14",
@@ -155,11 +156,12 @@ export const project = [
         resume: "il s'agit d'un site pour photographe à réaliser dans le cadre de la formation",
         lienSite: "https://lamopenclassroom.github.io/Ohmyfood/",
         lienGit: "https://github.com/lamOpenclassroom/Ohmyfood",
+        descript: "Dans ce projet il fallait intégrer la version mobile du site. J’ai découvert les animations CSS et le préprocesseur SASS qui est interprété par le CSS.Il s’agit d’un site  qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. "
     },
     {
         id: "15",
         techno: "REACT/REDUX",
-        name: "site d'agence de location'",
+        name: "site d'agence de location",
         image: booki1,
         slider: 
             [
@@ -171,6 +173,7 @@ export const project = [
         resume: "il s'agit d'un site d'agence de location à réaliser dans le cadre de ma formation",
         lienSite: "https://booki-site-ml.netlify.app/",
         lienGit: "https://github.com/lamOpenclassroom/booki",
+        descript: "Le but du projet est de développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Je suis chargé d'intégrer l'interface du site avec du code HTML et CSS.",
     },
     {
         id: "16",
@@ -188,6 +191,7 @@ export const project = [
         resume: "il s'agit d'un site repésentant le portfolio d'un architecte d'intérieur",
         lienSite: "Néant",
         lienGit: "https://github.com/lamOpenclassroom/Portfolio-P6",
+        descript: "Dans ce projet il fallait créer la page de présentation des travaux à partir d’un HTML déjà existant, en récupérant des données via une API.Coder complétement la page connexion avec la gestion des messages d’erreur et la redirection vers la page d’accueil lors de la connexion.Créer une modale pour ajouter ou supprimer des éléments.Le but principal étant de travailler sur Javascript pour obtenir un site dynamique et communiquer des données avec une API."  
     },
     {
         id: "17",
@@ -205,6 +209,7 @@ export const project = [
         resume:"il s'agit d'un site de photographe professionnel dans le cadre de ma formation",
         lienSite: "https://lamopenclassroom.github.io/Optimisation-referencement/",
         lienGit: "https://github.com/lamOpenclassroom/Optimisation-referencement",
+        descript : "Pour ce projet, j’avais un site de photographe professionnel déjà tout fait, ma mission était d’améliorer l’optimisation du site pour qu’il est plus de visibilité dans les moteurs de recherche.Donc il fallait respecter des critères tels que les performances, l’accessibilité, les balises sémantiques et le référencement (SEO)."
     },
     {
         id: "18",
@@ -238,6 +243,7 @@ export const project = [
         resume: "il s'agit d'un site d'évenementiel dans le cadre de la formation",
         lienSite: "https://77events-debugging.netlify.app/",
         lienGit: "https://github.com/lamOpenclassroom/Debugge-site",
+        descript: "Pour ce projet ma mission était de débugger le site donc l'objectif 0 erreur à la fin. Enfin je devais réalier une fonctionnalité tel que le filtre des événements."
     },
 ]
 
