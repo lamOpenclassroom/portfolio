@@ -5,13 +5,18 @@ $blackColor:#000;
     background-color: #000;
     padding: 50px;
     font-family: Montserrat,sans-serif;
-    nav{
+    nav ul{
         display: flex;
         justify-content: space-around;
+        
         li{
             color: $whiteColor;
             list-style-type: none;
             font-size: 1.5rem;
+            .fa-linkedin{
+                color: #fff;
+            }
         }
+        
     }
 }

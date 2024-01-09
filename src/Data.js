@@ -226,6 +226,7 @@ export const project = [
         resume:"il s'agit d'un site de banque à réaliser dans le cadre de la formation",
         lienSite: "Neant",
         lienGit: "https://github.com/lamOpenclassroom/ArgentBank-website",
+        descript: "Il s’agit d’une banque en ligne et ma mission était de développer cette application avec REACT à partir d’un HTML statique et du CSS.L’utilisateur peut visiter la page d’accueil, il peut se connecter et se déconnecter du système.Il peut voir uniquement les informations relatives à son compte.Enfin il a la possibilité de modifier son pseudo.J’ai utilisé la technologie REDUX pour l’interface utilisateur et j’y ai découvert la base de données MANGO DB."
     },
     {
         id: "19",
