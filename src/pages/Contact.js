@@ -5,7 +5,7 @@ function Contact() {
         <div id="block-contact">
             <h1>Contact</h1>
 
-            <form name="contact" method="POST" id="block-form" data-netlify="true">
+            <form name="contact" method="POST" id="block-form">
             <input type="hidden" name="form-name" value="contact"/>
                 <label for="name"> Nom :</label>
                     <input className="effet" type="text" name="name"/>
