@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Detail from "./components/Detail";
 import Error from './components/Error';
+import Sent from "./components/Sent";
 import About from "./pages/About";
 import Project from "./pages/Project";
 import Techno from "./pages/Techno";
@@ -24,6 +25,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/detail/:idDetail" element={<Detail />} />
             <Route path="/*" element={<Error />} /> 
+            <Route path='/sent' element={<Sent /> } />
         </Routes>
         </div>
         <Footer />

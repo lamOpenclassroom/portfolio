@@ -1,3 +1,6 @@
+#main-page{
+    margin-top: 120px;
+    height: 100vh;
 .propos,.parcours{
     display: flex;
     margin: 30px;
@@ -22,7 +25,7 @@
         justify-content: space-evenly;
     }
 }
-
+}
 .parcours{
     flex-direction: row-reverse;
 }
