@@ -6,12 +6,12 @@ function Contact() {
             <h1>Contact</h1>
 
             <form name="contact" method="POST" id="block-form" data-netlify="true">
-            <input type="hidden" name="subject" value="Sales inquiry from mysitename.netlify.app" />
-                <label> Nom :</label>
+            <input type="hidden" name="form-name" value="contact"/>
+                <label for="name"> Nom :</label>
                     <input className="effet" type="text" name="name"/>
-                <label> Email :</label>
+                <label for="email"> Email :</label>
                     <input className="effet" type="email" name="email"/>
-                <label> Message :</label>
+                <label for="message"> Message :</label>
                     <textarea className="effet" name="message"></textarea>
             </form>
 
