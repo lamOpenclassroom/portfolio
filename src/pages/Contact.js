@@ -16,10 +16,16 @@ function Contact() {
                 <label for="email"> Email :</label>
                     <input className="effet" type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                 <label for="message"> Message :</label>
-                    <textarea className="effet" name="message" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+                <textarea
+                    className="effet"
+                    name="message"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}>
+                </textarea>
+                <button type="submit">Envoyer</button>
             </form>
 
-            <button type="submit">Envoyer</button>
+            
 
         </div>
         
