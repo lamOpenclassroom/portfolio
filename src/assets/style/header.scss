@@ -14,9 +14,13 @@ $blackGrey:#3a3a3a;
 header{
     display: flex;
     justify-content: space-between;
-    background-color: $blackGrey;
+    background-color: #3a3a3a;
+    font-family: Montserrat, sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
     align-items: center;
-    font-family: Montserrat,sans-serif;
     
     .title {
       display: flex;
@@ -25,11 +29,13 @@ header{
       margin: 10px 0 10px 20px;
       animation-duration: 3s;
       animation-name:  slide;
-      h1{
+      h1,h2,i{
         color: $whiteColor;
+        margin: 0;
       }
-      h2{
-        color: $whiteColor;
+      i{
+        cursor: pointer;
+        font-size: 2rem;
       }
     }
     .navigation {

@@ -1,6 +1,6 @@
 function Error() {
     return (
-        <h1>IL Y A UNE GROSSE ERREUR</h1>
+        <h1>ERREUR 404</h1>
     )
 }
 

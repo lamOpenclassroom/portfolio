@@ -8,7 +8,6 @@ function Project() {
 
     function selectOption(e) {
         setisValueSelect(e.target.value)
-        console.log(`"la valeur du state est :"${valueSelect}`)
     }
 
     return (

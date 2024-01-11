@@ -7,6 +7,10 @@ import "../assets/style/detail.scss";
 function Detail() {
     const [dataUrl, setDataUrl] = useState();
 
+    const Return = () => {
+        window.history.back()
+    }
+
     const { idDetail } = useParams();
 
     useEffect(() => 
@@ -32,7 +36,6 @@ function Detail() {
         
         for (let i = 0; i < lengthPicture; i++){
             (i === account) ? getPicture[i].classList.remove("hidden") : getPicture[i].classList.add("hidden");
-            console.log(i)
         }
     }
 
@@ -49,7 +52,7 @@ function Detail() {
 
     return (
         <div className="detail">
-
+            <i onClick={Return} className="fa-solid return fa-arrow-left"></i>
             <div className="picture-size">
                 
                 <div className="listPicture">

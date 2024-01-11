@@ -1,6 +1,7 @@
-.propos{
+.propos,.parcours{
     display: flex;
     margin: 30px;
+    align-items: center;
     p{
         font-family: 'Dancing Script', cursive;
     }
@@ -8,6 +9,7 @@
     img{
         width: 50%;
         height: 50%;
+        border-radius: 20px;
     }
     .presentation{
         margin-left: 30px;
@@ -19,4 +21,8 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+}
+
+.parcours{
+    flex-direction: row-reverse;
 }
