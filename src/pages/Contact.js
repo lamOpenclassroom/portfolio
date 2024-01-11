@@ -8,11 +8,11 @@ function Contact() {
             <form name="contact" method="POST" id="block-form">
             <input type="hidden" name="form-name" value="contact"/>
                 <label for="name"> Nom :</label>
-                    <input className="effet" type="text" name="name"/>
+                    <input className="effet" type="text" name="name" value="name"/>
                 <label for="email"> Email :</label>
-                    <input className="effet" type="email" name="email"/>
+                    <input className="effet" type="email" name="email" value="email"/>
                 <label for="message"> Message :</label>
-                    <textarea className="effet" name="message"></textarea>
+                    <textarea className="effet" name="message" value="message"></textarea>
             </form>
 
             <button type="submit">Envoyer</button>
