@@ -1,0 +1,25 @@
+body {
+    position: relative;
+    background-color: rgba(125, 130, 195, 0.208);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+#message-retour {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    font-size: 2rem;
+}
+
+.bloc-message, #message-title {
+    font-size: 5rem;
+}
+  

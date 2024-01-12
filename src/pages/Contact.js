@@ -1,15 +1,16 @@
-import { useState } from "react"
-import "../assets/style/contact.scss"
+import { useState } from "react";
+import "../assets/style/contact.scss";
 
 function Contact() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("")
+    const [message, setMessage] = useState("");
+    
     return (
         <div id="block-contact">
             <h1>Contact</h1>
 
-            <form action="/sent" name="contact" method="POST" id="form">
+            <form name="contact" method="POST" id="form">
                 <input type="hidden" name="form-name" value="contact" />
                 <div id="block-form">
                     <label for="name"> Nom :</label>
