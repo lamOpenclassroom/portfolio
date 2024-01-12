@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "/src/components/Error.js"
+to = "/error.html"
 status = 404
