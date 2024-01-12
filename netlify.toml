@@ -1,0 +1,4 @@
+[[redirect]]
+from = "/*"
+to = "./src/components/Error.js"
+status = 404
