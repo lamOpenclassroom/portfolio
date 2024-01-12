@@ -1,5 +1,6 @@
 $gradientColor: rgb(170, 203, 221);
 
+
 #block-contact{
     display: flex;
     flex-direction: column;
@@ -7,35 +8,41 @@ $gradientColor: rgb(170, 203, 221);
     margin: 30px;
     margin-top: 120px;
     height: 100vh;
-    #block-form{
+    #form{
         display: flex;
         flex-direction: column;
-        align-items: baseline;
-        width: 600px;
-        label,input{
-            margin: 5px;
+        align-items: center;
+        #block-form{
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            width: 600px;
+            label,input{
+                margin: 5px;
+            }
+            input,textarea{
+                width: 100%;
+                border: 2px rgb(132, 132, 188) solid
+            }
+            .effet:hover{
+                background-color: $gradientColor;
+                cursor: pointer;
+                transition: 1500ms;
+            }
+            textarea{
+                height: 100px;
+            }
         }
-        input,textarea{
-            width: 100%;
-            border: 2px rgb(132, 132, 188) solid
+        button{
+            margin: 10px;
+            padding: 5px 30px;       
         }
-        .effet:hover{
-            background-color: $gradientColor;
+        button:hover{
             cursor: pointer;
-            transition: 1500ms;
+            color: #fff;
+            background-color:$gradientColor;
+            transition: 1000ms;
         }
-        textarea{
-            height: 100px;
-        }
     }
-    button{
-        margin: 10px;
-        padding: 5px 30px;       
-    }
-    button:hover{
-        cursor: pointer;
-        color: #fff;
-        background-color:$gradientColor;
-        transition: 1000ms;
-    }
+    
 }
