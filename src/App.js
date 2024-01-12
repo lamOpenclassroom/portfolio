@@ -24,7 +24,7 @@ function App() {
             <Route path="/techno" element={<Techno />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/detail/:idDetail" element={<Detail />} />
-            <Route path="/*" element={<Error errorMessage="Page not found" />} /> 
+            <Route path="/*" element={<Error/>} /> 
             <Route path='/sent' element={<Sent /> } />
         </Routes>
         </div>
