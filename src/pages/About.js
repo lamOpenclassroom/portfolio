@@ -1,4 +1,4 @@
-import imagePc from '../assets/image/hero.png';
+import imagePc from '../assets/image/hero.jpg';
 import imageIt from '../assets/image/IT.jpg'
 import "../assets/style/propos.scss"
 
