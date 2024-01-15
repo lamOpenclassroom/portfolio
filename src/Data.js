@@ -11,45 +11,45 @@ import WAKELET from "./assets/image/logo-techno/WAKELET.jpg";
 import TRELLO from "./assets/image/logo-techno/trello-logo-1.2.jpg";
 import FIGMA from "./assets/image/logo-techno/FIGMA.jpg";
 
-import kasa1 from "./assets/image/project/siteKasa/kasa-1.jpg";
-import kasa2 from "./assets/image/project/siteKasa/kasa-2.jpg";
-import kasa3 from "./assets/image/project/siteKasa/kasa-3.jpg";
-import kasa4 from "./assets/image/project/siteKasa/kasa-4.jpg";
-import kasa5 from "./assets/image/project/siteKasa/kasa-5.jpg";
+import kasa1 from "./assets/image/project/siteKasa/kasa-1.webp";
+import kasa2 from "./assets/image/project/siteKasa/kasa-2.webp";
+import kasa3 from "./assets/image/project/siteKasa/kasa-3.webp";
+import kasa4 from "./assets/image/project/siteKasa/kasa-4.webp";
+import kasa5 from "./assets/image/project/siteKasa/kasa-5.webp";
 
-import resto1 from "./assets/image/project/siteResto/resto-1.jpg";
-import resto2 from "./assets/image/project/siteResto/resto-2.jpg";
-import resto3 from "./assets/image/project/siteResto/resto-3.jpg";
-import resto4 from "./assets/image/project/siteResto/resto-4.jpg";
-import resto5 from "./assets/image/project/siteResto/resto-5.jpg";
+import resto1 from "./assets/image/project/siteResto/resto-1.webp";
+import resto2 from "./assets/image/project/siteResto/resto-2.webp";
+import resto3 from "./assets/image/project/siteResto/resto-3.webp";
+import resto4 from "./assets/image/project/siteResto/resto-4.webp";
+import resto5 from "./assets/image/project/siteResto/resto-5.webp";
 
-import booki1 from "./assets/image/project/siteBooki/booki-1.jpg";
-import booki2 from "./assets/image/project/siteBooki/booki-2.jpg";
-import booki3 from "./assets/image/project/siteBooki/booki-3.jpg";
-import booki4 from "./assets/image/project/siteBooki/booki-4.jpg";
+import booki1 from "./assets/image/project/siteBooki/booki-1.webp";
+import booki2 from "./assets/image/project/siteBooki/booki-2.webp";
+import booki3 from "./assets/image/project/siteBooki/booki-3.webp";
+import booki4 from "./assets/image/project/siteBooki/booki-4.webp";
 
-import archi1 from "./assets/image/project/architecte/archi-1.jpg";
-import archi2 from "./assets/image/project/architecte/archi-2.jpg";
-import archi3 from "./assets/image/project/architecte/archi-3.jpg";
-import archi4 from "./assets/image/project/architecte/archi-4.jpg";
-import archi5 from "./assets/image/project/architecte/archi-5.jpg";
+import archi1 from "./assets/image/project/architecte/archi-1.webp";
+import archi2 from "./assets/image/project/architecte/archi-2.webp";
+import archi3 from "./assets/image/project/architecte/archi-3.webp";
+import archi4 from "./assets/image/project/architecte/archi-4.webp";
+import archi5 from "./assets/image/project/architecte/archi-5.webp";
 
-import photo1 from "./assets/image/project/sitePhoto/photo-1.jpg";
-import photo2 from "./assets/image/project/sitePhoto/photo-2.jpg";
-import photo3 from "./assets/image/project/sitePhoto/photo-3.jpg";
-import photo4 from "./assets/image/project/sitePhoto/photo-4.jpg";
-import photo5 from "./assets/image/project/sitePhoto/photo-5.jpg";
+import photo1 from "./assets/image/project/sitePhoto/photo-1.webp";
+import photo2 from "./assets/image/project/sitePhoto/photo-2.webp";
+import photo3 from "./assets/image/project/sitePhoto/photo-3.webp";
+import photo4 from "./assets/image/project/sitePhoto/photo-4.webp";
+import photo5 from "./assets/image/project/sitePhoto/photo-5.webp";
 
-import bank1 from "./assets/image/project/siteBank/bank-1.jpg";
-import bank2 from "./assets/image/project/siteBank/bank-2.jpg";
-import bank3 from "./assets/image/project/siteBank/bank-3.jpg";
-import bank4 from "./assets/image/project/siteBank/bank-4.jpg";
+import bank1 from "./assets/image/project/siteBank/bank-1.webp";
+import bank2 from "./assets/image/project/siteBank/bank-2.webp";
+import bank3 from "./assets/image/project/siteBank/bank-3.webp";
+import bank4 from "./assets/image/project/siteBank/bank-4.webp";
 
-import event1 from "./assets/image/project/siteEvents/event-1.jpg";
-import event2 from "./assets/image/project/siteEvents/event-2.jpg";
-import event3 from "./assets/image/project/siteEvents/event-3.jpg";
-import event4 from "./assets/image/project/siteEvents/event-4.jpg";
-import event5 from "./assets/image/project/siteEvents/event-5.jpg";
+import event1 from "./assets/image/project/siteEvents/event-1.webp";
+import event2 from "./assets/image/project/siteEvents/event-2.webp";
+import event3 from "./assets/image/project/siteEvents/event-3.webp";
+import event4 from "./assets/image/project/siteEvents/event-4.webp";
+import event5 from "./assets/image/project/siteEvents/event-5.webp";
 
 export const frontend = [
     {

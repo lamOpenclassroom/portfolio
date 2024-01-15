@@ -1,5 +1,5 @@
-import imagePc from '../assets/image/hero.jpg';
-import imageIt from '../assets/image/IT.jpg'
+import imagePc from '../assets/image/hero.webp';
+import imageIt from '../assets/image/IT.webp'
 import "../assets/style/propos.scss"
 
 function About() {
