@@ -4,6 +4,7 @@
     display: flex;
     margin: 30px;
     align-items: center;
+    justify-content: space-between;
     p{
         font-family: 'Dancing Script', cursive;
     }
@@ -15,8 +16,8 @@
     }
     .presentation{
         margin-left: 30px;
-        width: 50%;
-        height: 50%;
+        width: 600px;
+        height: auto;
     }
     .bloc-soc{
         display: flex;
