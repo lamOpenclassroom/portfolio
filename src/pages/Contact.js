@@ -28,10 +28,7 @@ function Contact() {
                 <button type="submit">Envoyer</button>
             </form>
 
-            
-
         </div>
-        
     )
 }
 export default Contact
