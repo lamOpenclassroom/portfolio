@@ -8,7 +8,7 @@ function Contact() {
     
     return (
         <div id="block-contact">
-            <h1>Contact</h1>
+            <h1 id="titleForm">Contact</h1>
 
             <form name="contact" method="POST" id="form">
                 <input type="hidden" name="form-name" value="contact" />
