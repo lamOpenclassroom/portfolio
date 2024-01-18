@@ -19,7 +19,11 @@ body {
     font-size: 2rem;
 }
 
-.bloc-message, .message-title {
+.bloc-message{
+    font-size: 5rem;
+}
+
+.message-title{
     font-size: 5rem;
 }
   
