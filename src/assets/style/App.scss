@@ -1,7 +1,7 @@
 html,body{
     margin: 0;
     padding: 0;
-    // background: linear-gradient(rgb(209, 132, 132),beige,white);
+    background-image: url("../image/image-font.jpg");
     a{
         text-decoration:none;
         color: #000;
@@ -10,10 +10,16 @@ html,body{
     .my-app-change{
         h1{
             font-size: 2rem;
+            color: #fff;
+        }
+
+        h2{
+            color: #fff;
         }
 
         p,a{
             font-size: 1.2rem;
+            color: #fff;
             @media (max-width:415px){
                 font-size: 1rem;
             }
