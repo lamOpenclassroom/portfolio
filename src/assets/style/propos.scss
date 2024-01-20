@@ -2,16 +2,18 @@
     margin-top: 120px;
 .propos,.parcours{
     display: flex;
-    margin: 30px;
+    margin: 30px 30px 190px;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    @media (max-width:1290px){
+        flex-direction: column;
+    }
     p{
         font-family: 'Dancing Script', cursive;
     }
     
     img{
-        width: 50%;
-        height: 50%;
         border-radius: 20px;
     }
     .presentation{
