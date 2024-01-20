@@ -1,6 +1,7 @@
 html,body{
     margin: 0;
     padding: 0;
+    // background: linear-gradient(rgb(209, 132, 132),beige,white);
     a{
         text-decoration:none;
         color: #000;
@@ -13,6 +14,9 @@ html,body{
 
         p,a{
             font-size: 1.2rem;
+            @media (max-width:415px){
+                font-size: 1rem;
+            }
         }
 
         label{
