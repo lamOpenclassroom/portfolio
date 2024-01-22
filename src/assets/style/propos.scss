@@ -1,11 +1,12 @@
 #main-page{
-    margin-top: 120px;
+    margin: 120px 30px 190px;
+    @media (max-width:450px){
+        margin: 160px 30px 190px;
+    }
 .propos,.parcours{
     display: flex;
-    margin: 30px 30px 190px;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     @media (max-width:1290px){
         flex-direction: column;
     }
@@ -15,11 +16,15 @@
     
     img{
         border-radius: 20px;
+        @media(max-width:700px){
+            width: 100%;
+        }
     }
     .presentation{
-        margin-left: 30px;
         width: 600px;
-        height: auto;
+        @media(max-width:700px){
+            width: 100%;
+        }
     }
     .bloc-soc{
         display: flex;

@@ -1,28 +1,16 @@
 html,body{
     margin: 0;
     padding: 0;
-    background-image: url("../image/image-font.jpg");
+    background: rgb(2,0,36);
+    background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(81,165,212,1) 33%);
     a{
         text-decoration:none;
         color: #000;
     }
     
     .my-app-change{
-        h1{
-            font-size: 2rem;
-            color: #fff;
-        }
-
-        h2{
-            color: #fff;
-        }
-
         p,a{
-            font-size: 1.2rem;
-            color: #fff;
-            @media (max-width:415px){
-                font-size: 1rem;
-            }
+            font-size: 1.4rem;
         }
 
         label{

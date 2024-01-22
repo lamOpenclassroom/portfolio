@@ -51,26 +51,32 @@ function Detail() {
     }
 
     return (
-        <div className="detail">
-            <i onClick={Return} className="fa-solid return fa-arrow-left"></i>
-            <div className="picture-size">
-                
-                <div className="listPicture">
-                    {myslider.map((item, index) => <img className={index === 0 ? "" : "hidden"} key={index} alt={name} src={item} />)}
-                    <i onClick={right} className="fa-solid fa-chevron-right"></i>
-                    <i onClick={left} className="fa-solid fa-chevron-left"></i>
-                </div>
+        <div className="icon-detail">
 
-            </div>
+            <div className="detail">
             
-            <section className="section-info">
-                <h1>Projet : {name}</h1>
-                <p>Lien du site : <a href={linkSite} target="blank"> {linkSite} </a> </p>
-                <a href={linkGit} target="blank">Lien vers github</a> 
-                <p>Description : {description} </p>
-            </section> 
+                <div className="picture-size">
+                    
+                    <div className="listPicture">
+                        {myslider.map((item, index) => <img className={index === 0 ? "" : "hidden"} key={index} alt={name} src={item} />)}
+                        <i onClick={right} className="fa-solid fa-chevron-right"></i>
+                        <i onClick={left} className="fa-solid fa-chevron-left"></i>
+                    </div>
 
-       </div> 
+                </div>
+            
+                <section className="section-info">
+                    <h1>Projet : {name}</h1>
+                    <p>Lien du site : <a href={linkSite} target="blank"> {linkSite} </a> </p>
+                    <a href={linkGit} target="blank">Lien vers github</a> 
+                    <p>Description : {description} </p>
+                </section> 
+
+            </div> 
+            
+            <i onClick={Return} className="fa-solid return fa-arrow-left"></i>
+
+        </div>
     )
 }
 
