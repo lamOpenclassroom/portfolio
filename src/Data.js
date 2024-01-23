@@ -142,7 +142,7 @@ export const project = [
     },
     {
         id: "14",
-        techno: "HTML/CSS",
+        techno: "HTML/SASS",
         name: "site de restaurant",
         image: resto1,
         slider : 
@@ -160,7 +160,7 @@ export const project = [
     },
     {
         id: "15",
-        techno: "REACT/REDUX",
+        techno: "HTML/CSS",
         name: "site d'agence de location",
         image: booki1,
         slider: 
@@ -177,7 +177,7 @@ export const project = [
     },
     {
         id: "16",
-        techno: "REACT",
+        techno: "JAVASCRIPT/API",
         name: "Portfolio d'un architecte",
         image: archi1,
         slider : 
@@ -195,7 +195,7 @@ export const project = [
     },
     {
         id: "17",
-        techno: "HTML/CSS",
+        techno: "SEO",
         name: "site de photographe professionnel",
         image: photo1,
         slider : 
@@ -213,7 +213,7 @@ export const project = [
     },
     {
         id: "18",
-        techno: "REACT",
+        techno: "REACT/REDUX",
         name: "site de voyage",
         image: bank1,
         slider : 

@@ -17,7 +17,7 @@ function App() {
     <div className="my-app">
       <BrowserRouter>
         <Header />
-        <div className='my-app-change'>
+        <main className='my-app-change'>
           <Routes>
             <Route path="/" element={<About />}/>
             <Route path="/project" element={<Project />}/>
@@ -27,7 +27,7 @@ function App() {
             <Route path="/*" element={<Error/>} /> 
             <Route path='/sent' element={<Sent /> } />
         </Routes>
-        </div>
+        </main>
         <Footer />
       </BrowserRouter>
     </div>
