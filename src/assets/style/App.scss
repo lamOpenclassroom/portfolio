@@ -1,34 +1,39 @@
-html,body{
-    margin: 0;
-    padding: 0;
-    background: rgb(2,0,36);
-    background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(81,165,212,1) 33%);
-    a{
-        text-decoration:none;
-        color: #000;
-    }
-    
-    .my-app-change{
-        p,a{
-            font-size: 1.4rem;
+html{
+    body{
+        margin: 0;
+        padding: 0;
+        background: rgb(2,0,36);
+        background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(81,165,212,1) 33%);
+        @media(max-width:540px){
+            height: 0%;
         }
-
-        label{
-            font-size: 1.2rem
-        }
-        select{
-            font-size: 1rem;
-        }
-
-        button{
-            font-size: 1.5rem;
+        a{
+            text-decoration:none;
+            color: #000;
         }
         
-        .modal{
-            font-size: 1rem;
+        .my-app-change{
+            p,a{
+                font-size: 1.4rem;
+            }
+
+            label{
+                font-size: 1.2rem
+            }
+            select{
+                font-size: 1rem;
+            }
+
+            button{
+                font-size: 1.5rem;
+            }
+            
+            .modal{
+                font-size: 1rem;
+            }
         }
-    }
-}   
+    }  
+} 
 
 
 
