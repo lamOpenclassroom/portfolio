@@ -67,8 +67,10 @@ function Detail() {
             
                 <section className="section-info">
                     <h1>Projet : {name}</h1>
-                    <p>Lien du site : <a href={linkSite} target="blank"> {linkSite} </a> </p>
-                    <a href={linkGit} target="blank">Lien vers github</a> 
+                    <p>Lien vers le site :</p>
+                    <a href={linkSite} target="blank">{linkSite}</a>
+                    <p>Lien vers github :</p>
+                    <a href={linkGit} target="blank">Git</a>
                     <p>Description : {description} </p>
                 </section> 
 

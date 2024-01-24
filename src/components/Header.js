@@ -12,7 +12,7 @@ function Header() {
     return (
         <header className="header">
             <div className='title'>
-                <h1>LAMTAOUI MOHAMMED</h1>
+                <h1>LAMTAOUI MOHAMED</h1>
                 <h2>Developpeur Web</h2>
             </div>
             <div className="navigation">
