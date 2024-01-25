@@ -25,7 +25,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/detail/:idDetail" element={<Detail />} />
             <Route path="/*" element={<Error/>} /> 
-            <Route path='/sent' element={<Sent /> } />
+            <Route path='/sent' element={<Sent />} />
         </Routes>
         </main>
         <Footer />
