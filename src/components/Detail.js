@@ -14,7 +14,7 @@ function Detail() {
     const { idDetail } = useParams();
 
     useEffect(() => 
-                {const dataFind = project.find(obj => obj.id === idDetail);
+                {const dataFind = project.find(obj => obj.url === idDetail);
                     setDataUrl(dataFind)  
                 },[idDetail])
     
@@ -68,9 +68,9 @@ function Detail() {
                 <section className="section-info">
                     <h1>Projet : {name}</h1>
                     <p>Lien vers le site :</p>
-                    <a href={linkSite} target="blank">{linkSite}</a>
+                    <a href={linkSite} rel="noreferrer" target="_blank">{linkSite}</a>
                     <p>Lien vers github :</p>
-                    <a href={linkGit} target="blank">Git</a>
+                    <a href={linkGit} rel="noreferrer" target="_blank">Git</a>
                     <p>Description : {description} </p>
                 </section> 
 

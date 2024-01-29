@@ -9,9 +9,8 @@ import About from "./pages/About";
 import Project from "./pages/Project";
 import Techno from "./pages/Techno";
 import Contact from "./pages/Contact";
-import Pdfviewer from "./pages/Pdfviewer";
 
-import "./assets/style/App.scss"
+import "./assets/style/app.scss"
 
 function App() {
   return (
@@ -26,9 +25,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/detail/:idDetail" element={<Detail />} />
             <Route path="/*" element={<Error/>} /> 
-            <Route path='/sent' element={<Sent />} />
-            <Route path='/cv' element={<Pdfviewer />} />
-        </Routes>
+            <Route path='/sent' element={<Sent />} /> 
+          </Routes> 
         </main>
         <Footer />
       </BrowserRouter>

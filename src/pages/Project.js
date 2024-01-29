@@ -29,7 +29,7 @@ function Project() {
             <section>
                 {project.map((items) =>
                 (items.techno === valueSelect || valueSelect === "TOUS" ?
-                    <Link to={`/detail/` + items.id}>
+                    <Link to={`/detail/` + items.url}>
                         <div id='flexImage-title' >     
                             <img  alt={items.name} src={items.image}/>
                             <p className="title-picture">{items.name}</p> 

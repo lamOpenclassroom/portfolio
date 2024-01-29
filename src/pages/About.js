@@ -1,6 +1,6 @@
 import imagePc from '../assets/image/hero.webp';
-import imageIt from '../assets/image/IT.webp'
-import "../assets/style/propos.scss"
+import imageIt from '../assets/image/IT.webp';
+import "../assets/style/about.scss";
 
 function About() {
     return (

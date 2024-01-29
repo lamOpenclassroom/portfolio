@@ -20,7 +20,7 @@ function Header() {
                     <Link className="link" to="/">Acceuil</Link>
                     <Link className="link" to="/project">Mes projets</Link>
                     <Link className="link" to="/techno">Les technologies</Link>
-                    <Link className="link" to="/contact">Contact</Link>
+                    <Link className="link" to="/contact">Contact</Link> 
                 </nav>
             </div>
             <div className={menuMobil ? "hidden" : "visible navMobil"}>
@@ -29,7 +29,6 @@ function Header() {
                     <Link onClick={addMenu} className="link" to="/project">Mes projets</Link>
                     <Link onClick={addMenu} className="link" to="/techno">Les technologies</Link>
                     <Link onClick={addMenu} className="link" to="/contact">Contact</Link>
-                    <Link onClick={addMenu} className="link" to="/cv">CV</Link>
                 </nav>
             </div>
             

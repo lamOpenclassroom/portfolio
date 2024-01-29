@@ -2,7 +2,10 @@
     .parcours{
         flex-direction: row-reverse;
     }
-    padding: 160px 30px 0;
+    padding: 160px 30px 100px;
+    .propos{
+        margin-bottom: 30px;
+    }
     .propos,.parcours{
         display: flex;
         align-items: center;

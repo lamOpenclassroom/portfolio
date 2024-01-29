@@ -125,7 +125,8 @@ export const project = [
     {
         id: "13",
         techno : "REACT",
-        name:"Site location immobilière",
+        name: "Site location immobilière",
+        url: "kasa",
         image: kasa1,
         slider : 
         [
@@ -144,6 +145,7 @@ export const project = [
         id: "14",
         techno: "HTML/SASS",
         name: "site de restaurant",
+        url: "ohmyfood",
         image: resto1,
         slider : 
         [
@@ -162,6 +164,7 @@ export const project = [
         id: "15",
         techno: "HTML/CSS",
         name: "site d'agence de location",
+        url: "booki",
         image: booki1,
         slider: 
             [
@@ -179,6 +182,7 @@ export const project = [
         id: "16",
         techno: "JAVASCRIPT/API",
         name: "Portfolio d'un architecte",
+        url: "sophieBluel-architecte",
         image: archi1,
         slider : 
         [
@@ -197,6 +201,7 @@ export const project = [
         id: "17",
         techno: "SEO",
         name: "site de photographe professionnel",
+        url: "ninaCarducci-photographe",
         image: photo1,
         slider : 
         [
@@ -216,6 +221,7 @@ export const project = [
         techno: "REACT/REDUX",
         name: "site de voyage",
         image: bank1,
+        url: "argentBank",
         slider : 
         [
             bank1,
@@ -233,6 +239,7 @@ export const project = [
         techno: "REACT",
         name: "site d'évenementiel",
         image: event1,
+        url: "77Events",
         slider: 
         [
             event1,
